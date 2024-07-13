@@ -1,0 +1,267 @@
+* {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+html {
+    font-size: 62.5%;
+}
+body{
+    background-color: whitesmoke;
+}
+header {
+    margin: 0px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(8, 93, 8);
+    color: white;
+    height: 65px;
+    padding: 1em;
+    font-size: 20px;
+}
+.logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #666;
+    display: inline-block;
+}
+.logo i {
+    padding-right: 2rem;
+    color: white;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+}
+.menu>li {
+    margin:  1rem;
+    overflow: hidden;
+}
+.menu li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+.hero-section {
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 30px 0;
+    align-items: center;
+}
+.hero-section .container{
+    flex: 1 1 40rem;
+    padding-top: 6.5rem;
+    padding-left: 2.5rem;
+}
+.hero-section .container h2 {
+    margin: 0;
+    color: rgb(11, 179, 11);
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-section .container h1{
+    color: black;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero-section .container h3{
+    color:  rgb(3, 87, 3);
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero-section .container p {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    color: #666;
+}
+.btn{
+    background-color: #FF5722;
+    color: white;
+    cursor: pointer;
+    padding: 0.8rem 3rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin: 1rem 1rem 0 0;
+    font-size: 1.7rem;
+}
+.btn:hover {
+    background-color: #d63e10;
+}
+.hero-section .image{
+    flex: 1 1 30rem;
+}
+.hero-section .image img{
+    width: 80%;
+    height: 80%;
+    padding: 1rem;
+    background-color:#212531;
+    border-radius:5rem ;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 30px 0;
+}
+.about .container{
+    width:80%;
+    height:80%;
+    padding:10rem 3rem;
+}
+.about .container h2{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 171, 12);
+}
+.about .container h1{
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgreen;
+    margin-top: 0.2rem;
+}
+.about .container p{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    margin-top: 1.5rem;
+}
+.benefit-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px 0;
+}
+.benefit-section .container{
+    width:80%;
+    height:80%;
+    padding: 5rem 0;
+}
+.benefit-section .container h2{
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 171, 12);
+}
+.benefit-section .benefit-box{
+    background-color: white;
+    border: 2px solid #b7b4b4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+.benefit-box h3{
+    font-size: 3rem;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.benefit-box p{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #666;
+    padding: 1%;
+}
+.recipes-section{
+    padding: 50px 0;
+    text-align: center;
+}
+.recipes-section .container h2{
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 171, 12);
+}
+.recipes-section .recipe-box{
+    display: inline-block;
+    width:30rem;
+    height:35rem;
+    background-color: white;
+    border: 2px solid #b7b4b4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 10px;
+    text-align: center;
+}
+.recipe-box h3{
+    font-size: 3em;
+    padding: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.recipe-box p{
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #666;
+    margin-top: 4%;
+}
+.recipe-box img{
+    width: 50%;
+    height:50%;
+    border-radius: 50%;
+    margin-top:7%;
+    border: 2px solid #b7b4b4;
+}
+.contact-section{
+    padding: 50px 0;
+    text-align: center;
+}
+.contact-section .container h2{
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 171, 12);
+}
+.contact-section .form-group {
+    margin: 20px 0;
+}
+.contact-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: gray;
+    font-size: 1.7rem;
+}
+.contact-section input, .contact-section textarea {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #b7b4b4;
+    border-radius: 6px;
+}
+.contact-section button {
+    background-color: #30ad34;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-section button:hover {
+    background-color: #1f8224;
+}
+.footer {
+    background-color: rgb(8, 93, 8);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
